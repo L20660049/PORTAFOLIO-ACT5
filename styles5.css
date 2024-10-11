@@ -1,0 +1,70 @@
+/* Estilos generales para centrar la calculadora en pantalla */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Estilo del contenedor de la calculadora */
+.calculator {
+  background-color: #2c3e50;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  width: 320px;
+}
+
+/* Estilo de la pantalla de la calculadora */
+.display {
+  width: 100%;
+  height: 60px;
+  background-color: #34495e;
+  color: white;
+  text-align: right;
+  padding: 10px;
+  font-size: 2em;
+  border: none;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+/* Estilo de los botones de la calculadora */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+/* Estilo general para cada botón */
+.btn {
+  background-color: #16a085;
+  color: white;
+  font-size: 1.5em;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Efecto hover para los botones */
+.btn:hover {
+  background-color: #1abc9c;
+}
+
+/* Botón de igual más destacado */
+.equal {
+  grid-column: span 2;
+  background-color: #e74c3c;
+}
+
+/* Efecto hover para el botón de igual */
+.equal:hover {
+  background-color: #c0392b;
+}
+
+  
